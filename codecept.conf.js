@@ -34,7 +34,11 @@ exports.config = {
     
   include: {
     I: "./steps_file.js",
-    Login : "./modules/login/login.js",
+    Login: "./modules/login/login.js",
+    Product: "./modules/checkout/product.js",
+    Cart : "./modules/checkout/your_cart.js",
+    Information : "./modules/checkout/your_information.js",
+    Finish : "./modules/checkout/finish.js"
   },
   name: "codeceptTraining",
 };

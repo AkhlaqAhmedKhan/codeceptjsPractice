@@ -10,7 +10,7 @@ module.exports = {
             I.fillField(login_po.inputPassword, password);
 
             //I.fillField(login_po.inputPassword, password);
-            I.click(login_po.btnLogin);
+            I.click(login_po.btnClick);
             const result = await tryTo(()=>
             I.waitToHide(login_po.btnLogin,120)
             );
